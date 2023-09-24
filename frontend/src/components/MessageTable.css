@@ -1,0 +1,16 @@
+.message-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .message-table th, .message-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .message-table th {
+    background-color: #f0f0f0;
+  }
+  

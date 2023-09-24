@@ -1,0 +1,45 @@
+.homemain{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+    justify-content: center;
+    
+}
+.NameDiv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.username{
+    font-size: 50px;
+    color: green;
+}
+.logoutButton{
+    width: fit-content;
+    margin: auto;
+    color: red;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.MessageDiv{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.textBox{
+    width: 60%;
+    margin: auto;
+}
+.submitButton{
+    width: 60%;
+    margin: auto;
+}
+.tableDiv{
+    margin: auto;
+}

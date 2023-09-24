@@ -1,0 +1,183 @@
+.loginMain{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10vw;
+
+}
+.loginLeft{
+   
+    width: 50%;
+    justify-content: center;
+    margin-top: 15%;
+    height: 100%;
+   
+    
+}
+.loginLeft_sub{
+    
+    display: flex;
+    flex-direction: column;
+   margin: auto;
+   width: 40%;
+    height: 100%;
+  
+}
+.formHead_main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 40px;
+    
+   
+}
+.formHead_h2{
+    font-size: 23px;
+    font-weight: 500;
+    color: #000000;
+
+}
+.FormHead_imgL{
+    width: 100%;
+    
+}
+#email_fieldL{
+    width:97%;
+    height: 30px;
+    margin-bottom: 3vw;
+    padding-left: 5px;
+    border-radius: 3px;
+    border: #000000 1px solid;
+}
+#password_fieldL{
+    width:97%;
+    height: 30px;
+    margin-bottom: 3vw;
+    padding-left: 5px;
+    border-radius: 3px;
+    border: #000000 1px solid;
+}
+.passIcon{
+    
+    
+    position: relative;
+    left: 85%;
+    bottom: 37px;
+    width: 10%;
+    
+    
+    
+}
+#passwordVisibilityIcon{
+    width: 100%;
+}
+.loginbtn{
+    width: 98%;
+    padding-left: 5px;
+    height: 30px;
+    background-color: #FF5F1F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.loginRight{
+    width: 50%;
+   
+    height: 100%;
+    
+}
+.loginRightImg{
+width: 80%;
+margin-right: 5%;
+margin-left: 10%;
+
+}
+@media screen and (max-width: 1100px) {
+    .loginLeft_sub{
+    
+       width: 50%;
+      
+    }
+    .loginRightImg{
+      height: 600px;
+       
+       margin-right: 5%;
+        
+        }
+
+}
+@media screen and (max-width: 800px) {
+    .loginRightImg{
+      
+      height: 500px;
+        
+        }
+    
+}
+@media screen and (max-width: 855px) {
+    .loginLeft_sub{
+    
+    
+       margin: auto;
+       width: 60%;
+       
+      
+    }
+
+}
+@media screen and (max-width: 570px) {
+    .formHead_h2{
+        font-size: 18px;
+        
+    
+    }
+    .loginRightImg{
+        height: 400px;
+       
+         
+     }
+}
+@media screen and (max-width: 445px) {
+
+    .loginMain{
+        flex-direction: column;
+        
+    }
+    .loginLeft{
+   
+        width: 100%;
+        justify-content: center;
+        margin-top: 20%;
+        height: 100%;
+       
+       
+        
+    }
+    .loginLeft_sub{
+    
+        width: 60%;
+        margin: auto;
+        
+       
+     }
+    .formHead_h2{
+        font-size: 14px;
+        
+    
+    }
+    .loginRight{
+        width: 100%;
+       
+        text-align: center;
+    }
+    .loginRightImg{
+        margin-top: 50px;
+       width: 80%;
+      height: 200px;
+       
+      margin-right: 0%;
+      margin-left: 0%;
+     }
+    
+}
